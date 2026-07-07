@@ -9,7 +9,7 @@ CREATE TABLE movie (
     title VARCHAR(255) NOT NULL,
     synopsis TEXT,
     director VARCHAR(255),
-    cast TEXT,
+    actors TEXT,
     production_company VARCHAR(255)
 );
 

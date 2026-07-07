@@ -58,7 +58,7 @@ class Database:
                 m["title"],
                 m.get("synopsis"),
                 m.get("diretor"),
-                m.get("cast"),
+                m.get("actors"),
                 m.get("production_company"),
             )
             for m in movies
